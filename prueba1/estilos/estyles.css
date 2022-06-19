@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300;1,400;1,900&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,800&family=Red+Hat+Mono:ital,wght@0,300;0,500;0,700;1,400&family=Roboto:wght@100;500;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    background-color: black;
+}
+
+.enlace {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 120px;
+}
+
+.enlace h1 {
+    font-family: var(--cp-font-family);
+    font-size: 1.3rem;
+    margin: 0 0 0.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.enlace h1 a {
+    color: var(--cp-color-1);
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav .enlace {
+    color: rgb(243, 243, 242);
+}
+
+nav .enlace div a {
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--cp-color-9);
+    font-size: .9rem;
+    text-transform: none;
+    letter-spacing: 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+nav .enlace div a {
+    font-size: 1.5rem;
+    height: 16px;
+    --cp-button-padding-block: 1px;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    padding: 9px 40px;
+    border: radius 10px;
+}
+
+.menu {
+    margin-top: 0px;
+}
+
+nav ul {
+    float: right;
+    justify-content: center;
+    height: 65px;
+    padding: auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 7px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+.Button {
+    padding: 8px 10px;
+    font-size: 18px;
+    background-color: rgb(57, 51, 51);
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.Sing-up {
+    padding: 8px 10px;
+    font-weight: 100;
+    border-radius: 3px;
+    background-color: rgb(99, 193, 99);
+    color: black;
+}
+
+nav div a {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+nav .enlase div .free {
+    color: black;
+    padding: 3px 10px;
+}
+
+.free {
+    padding: 8px 20px;
+}
+
+
+/*aqui es la parte del main*/
+
+#main {
+    max-width: 1000px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+
+#title {
+    text-align: center;
+    font-size: 42px;
+}
+
+#main p {
+    text-align: center;
+    font-size: 16px;
+}
+
+#img-div {
+    max-width: 1000px;
+    margin: auto auto;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+#image {
+    display: block;
+    max-width: 900px;
+    padding-bottom: 20px;
+}
+
+#tribute-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tribute-info h3 {
+    font-size: 18px;
+    padding: 40px;
+    font-family: 'Arial black';
+}
+
+#tribute-info ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#tribute-info ul li {
+    display: list-items;
+    margin: 16px 0;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#tribute-info p {
+    max-width: 550px;
+    margin: 0 auto 0 auto;
+    /* line-height: 1.6; */
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#main h3 {
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 19px;
+}
